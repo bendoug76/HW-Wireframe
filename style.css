@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: lightgrey;
+}
+
