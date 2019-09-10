@@ -61,7 +61,7 @@ header {
     padding: 20px;
     margin-bottom: 20px;
     background: #ebebeb;
-    width: 250px;
+    width: 450px;
     float: right;
     height: 290px;
 }
@@ -70,7 +70,5 @@ footer {
     padding: 20px;
     margin-bottom: 20px;
     background: #ebebeb;
-    position: absolute; 
-    bottom: 0;
-    width: 100%;
+    clear: both;
 }
