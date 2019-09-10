@@ -1,56 +1,67 @@
 * {
     box-sizing: border-box;
     text-align: center;
-    background: slategray;
+    background: #777;
 }
 
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    width: 960px;
+    font-size: 18px;
+}
 
 header {
     padding: 20px;
     margin-bottom: 10px;
-    background: lightgrey;
+    top: 0;
+    background: #ebebeb;
+    width: 100%;
 }
 
 #nav {
     padding: 20px;
     margin-bottom: 20px;
-    background: lightgray;
+    background: #ebebeb;
+    width: 100%;
 }
 
 #section {
     padding: 20px;
     margin-bottom: 20px;
-    background: lightgray;
+    background: #ebebeb;
     margin-right: 20px;
     float: left;
-    width: 62%;
+    width: 490px;
     height: 290px;
 }
 
 #article {
     padding: 20px;
     margin-bottom: 20px;
-    background: slategray;
+    background: #777;
+    color: #ebebeb;
 }
 
 #htag {
     padding: 20px;
     margin-bottom: 8px;
-    background: lightgray;
+    background: #ebebeb;
+    color: #777;
 }
 
 #p {
     padding: 20px;
     margin-bottom: 8px;
-    background: lightgray;
+    background: #ebebeb;
+    color: #777;
 }
 
 #aside {
     padding: 20px;
     margin-bottom: 20px;
-    background: lightgray;
-    width: 35%;
+    background: #ebebeb;
+    width: 250px;
     float: right;
     height: 290px;
 }
@@ -58,7 +69,7 @@ header {
 footer {
     padding: 20px;
     margin-bottom: 20px;
-    background: lightgray;
+    background: #ebebeb;
     position: absolute; 
     bottom: 0;
     width: 100%;
