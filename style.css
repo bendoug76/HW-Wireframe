@@ -1,13 +1,14 @@
 * {
     box-sizing: border-box;
     text-align: center;
+    background: slategray;
 }
 
 
 
 header {
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background: lightgrey;
 }
 
@@ -21,16 +22,44 @@ header {
     padding: 20px;
     margin-bottom: 20px;
     background: lightgray;
+    margin-right: 20px;
+    float: left;
+    width: 62%;
+    height: 290px;
+}
+
+#article {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: slategray;
+}
+
+#htag {
+    padding: 20px;
+    margin-bottom: 8px;
+    background: lightgray;
+}
+
+#p {
+    padding: 20px;
+    margin-bottom: 8px;
+    background: lightgray;
 }
 
 #aside {
     padding: 20px;
     margin-bottom: 20px;
     background: lightgray;
+    width: 35%;
+    float: right;
+    height: 290px;
 }
 
 footer {
     padding: 20px;
     margin-bottom: 20px;
     background: lightgray;
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
 }
