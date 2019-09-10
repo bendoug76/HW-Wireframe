@@ -11,3 +11,26 @@ header {
     background: lightgrey;
 }
 
+#nav {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: lightgray;
+}
+
+#section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: lightgray;
+}
+
+#aside {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: lightgray;
+}
+
+footer {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: lightgray;
+}
